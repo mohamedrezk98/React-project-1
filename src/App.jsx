@@ -1,11 +1,7 @@
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Children, useEffect, useState } from "react";
-import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
-import Footer from "./Components/Footer/Footer";
 import MainLayout from "./Layouts/MainLayout";
-import AuthLayout from "./Layouts/AuthLayout";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import Portfolio from "./Components/Portfolio/Portfolio";
